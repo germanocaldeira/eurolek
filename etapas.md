@@ -42,19 +42,19 @@ permalink: /etapas/
 <h3><li>R&aacute;dio Philco PCA 110</li></h3>
 
 <h4><p>MP3 Player com visual semelhante aos r&aacute;dios da &eacute;poca.</p></h4>
-<img src="/path/assets/images/parts/radio.jpg" />
+<img src="{{ site.url }}/assets/images/parts/radio.jpg" />
 
 <h3><li>Chave P&iacute;lula</li></h3>
 
 <h4><p>Acess&oacute;rio gringo dos VW's dos anos 90</p></h4>
-<img src="/path/assets/images/parts/chave1.jpg" />
+<img src="{{ site.url }}/assets/images/parts/chave1.jpg" />
 
 <h3><li>Chave canivete</li></h3>
 
 <h4><p>Leve toque de 0$T3NT4&Ccedil;40</p></h4>
-<img src="/path/assets/images/parts/chave2.jpg" />
+<img src="{{ site.url }}/assets/images/parts/chave2.jpg" />
 
 <h3><li>Placa alem&atilde;</li></h3>
 
 <h4><p>Para dar um toque German Look no carro</p></h4>
-<img src="/path/assets/images/parts/placa.jpg" />
+<img src="{{ site.url }}/assets/images/parts/placa.jpg" />
