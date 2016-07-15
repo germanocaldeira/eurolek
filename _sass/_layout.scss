@@ -2,6 +2,11 @@
  * Site header
  */
  
+ @font-face {
+    font-family: vwt2;
+    src: url(vwt2.ttf);
+}
+ 
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -14,6 +19,7 @@
 .site-title {
 
     font-size: 26px;
+	font-family: vwt2;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
