@@ -12,6 +12,8 @@ permalink: /etapas/
 <h3><li> Montagem</li></h3>
 <h4><p></p></h4>
 
+<hr/>
+
 <h2>Modifica&ccedil;&otilde;es:</h2>
 
 <h3><li>Farol de milha</li></h3>
@@ -40,13 +42,19 @@ permalink: /etapas/
 <h3><li>R&aacute;dio Philco PCA 110</li></h3>
 
 <h4><p>MP3 Player com visual semelhante aos r&aacute;dios da &eacute;poca.</p></h4>
+({{ site.url }}/assets/images/parts/radio.jpg)
+
 <h3><li>Chave P&iacute;lula</li></h3>
 
 <h4><p>Acess&oacute;rio gringo dos VW's dos anos 90</p></h4>
+({{ site.url }}/assets/images/parts/chave.jpg)
+
 <h3><li>Chave canivete</li></h3>
 
 <h4><p>Leve toque de 0$T3NT4&Ccedil;40</p></h4>
+({{ site.url }}/assets/images/parts/chave.jpg)
+
 <h3><li>Placa alem&atilde;</li></h3>
 
 <h4><p>Para dar um toque German Look no carro</p></h4>
-
+({{ site.url }}/assets/images/parts/placa.jpg)
