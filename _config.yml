@@ -17,5 +17,4 @@ github_username:  germanocaldeira
 
 # Build settings
 markdown: kramdown
-excerpt_separator: <!--more-->
-gem: [lightbox]
+
