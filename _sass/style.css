@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "VW";
+  src: url('VWT2.ttf');
+}
+
+
+#logo {
+  text-align: center;
+  font: 3em "VW" bold;
+}
+
+body {
+  font-family: monospace;
+  background-color: #eee;
+  margin: 40px;
+  font-size: 1em;
+}
+
+
+nav {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+ul li {
+  list-type: none;
+  display: inline;
+}
+
+ul li a:link,
+ul li a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.texto {
+  font: 1.1em "Courier New";
+  font-variant: small-caps;
+  margin: 5% 20%;
+  text-align: justify;
+}
+
+.texto::first-letter {
+  font: 1.4em bold
+}
+
+footer {
+  text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
