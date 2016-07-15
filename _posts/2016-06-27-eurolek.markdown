@@ -7,10 +7,7 @@ categories: jekyll update
 
 <h1>BIIIIRLLL</h1>
 
-{% lightbox carro1.jpg, Golf GL , Carro comprado %}
-<!--more-->
-{% lightbox carro2.jpg, Golf GL , Carro comprado %}
-{% lightbox carro3.jpg, Golf GL , Carro comprado %}
+
 
 
     
