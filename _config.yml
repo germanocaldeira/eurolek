@@ -12,8 +12,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Um Volkswagen Golf Mk3 mexicano, com visual euro, customizado no Brasil ;-)
 baseurl: "/eurolek" # the subpath of your site, e.g. /blog
 url: "https://germanocaldeira.github.io/eurolek" # the base hostname & protocol for your site
-twitter_username: germanocaldeira
-github_username:  germanocaldeira
+twitter_username:   germanocaldeira
+github_username:    germanocaldeira
+instagram_username: germanocaldeira
+facebook_username:  germanocaldeira
+email_username:     germanocaldeira
 
 # Build settings
 markdown: kramdown

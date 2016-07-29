@@ -30,6 +30,18 @@ $on-laptop:        800px;
 
 
 
+// Font variables
+$font-name: "VWT2";
+$font-path-file-name: {{baseurl}}/assets/fonts/VWT2;
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
