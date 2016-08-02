@@ -18,6 +18,11 @@ instagram_username: germanocaldeira
 facebook_username:  germanocaldeira
 email_username:     germanocaldeira
 
+css_folder: 'asets/stylesheets'
+js_folder: 'assets/javascripts'
+img_folder:     'assets/images'
+font_folder:     'assets/fonts'
+
 # Build settings
 markdown: kramdown
 
