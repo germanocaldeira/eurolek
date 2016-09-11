@@ -7,6 +7,7 @@ order: 1
 
 <h2>Etapas do Projeto:</h2>
 
+<<<<<<< HEAD
 <h3><li> Compra do carro</li></h3>
 <p></p>
 <h3><li> Compra das peças</li></h3>
@@ -61,3 +62,8 @@ order: 1
 
 <p>Para dar um toque German Look no carro</p>
 <img src="{{ site.url }}/assets/images/parts/placa.jpg" />
+=======
+{% for gallery in site.data.galleries %}
+- [{{ gallery.description }}]({{ gallery.id }})
+{% endfor %}
+>>>>>>> refs/remotes/origin/master

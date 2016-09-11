@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "O EUROLEK VAI SAIR DA JAULA"
+date:   2016-09-10
+categories: diario
+---
+
+<h1>BIIIIRLLL</h1>
+
+<p>Resolvi criar esse site como forma de documentar o processo de criação de um Golf Eurolook e tirar a ferrugem das habilidades de webdesigner, registrando os passos do projeto desde a aquisição de peças/acessórios até o carro pronto. </p>
+
