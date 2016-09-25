@@ -26,3 +26,5 @@ font_folder:     'assets/_fonts'
 # Build settings
 markdown: kramdown
 
+excerpt_separator: <!--more-->
+
