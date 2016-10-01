@@ -1,7 +1,7 @@
 ---
-layout: page
 title: VEM MONSTRO
-permalink: /etapas/
+permalink: "/etapas/"
+layout: page
 order: 1
 ---
 

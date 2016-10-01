@@ -1,30 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Der Eurolek Projekt    
+---
+title: Der Eurolek Projekt
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: germanocaldeira@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Um Volkswagen Golf Mk3 mexicano, com visual euro, customizado no Brasil ;-)
-baseurl: "/eurolek" # the subpath of your site, e.g. /blog
-url: "https://germanocaldeira.github.io/eurolek" # the base hostname & protocol for your site
-twitter_username:   germanocaldeira
-github_username:    germanocaldeira
+description: 'Um Volkswagen Golf Mk3 mexicano, com visual euro, customizado no Brasil
+  ;-)
+
+'
+baseurl: "/eurolek"
+url: https://germanocaldeira.github.io/eurolek
+twitter_username: germanocaldeira
+github_username: germanocaldeira
 instagram_username: germanocaldeira
-facebook_username:  germanocaldeira
-email_username:     germanocaldeira
-
-css_folder: 'asets/_stylesheets'
-js_folder: 'assets/_javascripts'
-img_folder:     'assets/images'
-font_folder:     'assets/_fonts'
-
-# Build settings
+facebook_username: germanocaldeira
+email_username: germanocaldeira
+css_folder: asets/_stylesheets
+js_folder: assets/_javascripts
+img_folder: assets/images
+font_folder: assets/_fonts
 markdown: kramdown
-
-excerpt_separator: <!--more-->
-
+excerpt_separator: "<!--more-->"

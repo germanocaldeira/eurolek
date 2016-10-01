@@ -1,7 +1,7 @@
 ---
-layout: page
 title: DESCUBRA
-permalink: /sobre/
+permalink: "/sobre/"
+layout: page
 order: 2
 ---
 
