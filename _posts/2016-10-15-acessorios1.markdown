@@ -1,8 +1,9 @@
 ---
+title: Acessórios 1
+date: 2016-10-15 00:00:00 Z
+categories:
+- diario
 layout: post
-title:  "Acessórios 1"
-date:   2016-10-15
-categories: diario
 ---
 
 <h1>Acess&oacute;rios</h1>
