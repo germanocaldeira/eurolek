@@ -1,0 +1,34 @@
+- id: acessorios
+  description: Acessorios
+  imagefolder: /assets/images/parts/
+  images:
+  - name: carteira.jpg
+    thumb: thumb-1.jpg
+    text: The first image
+  - name: chave1.jpg
+    thumb: thumb-2.jpg
+    text: The second image
+  - name: chave2.jpg
+    thumb: thumb-3.jpg
+    text: The third image
+  - name: chave3.jpg
+    thumb: thumb-1.jpg
+    text: The first image
+  - name: chave4.jpg
+    thumb: thumb-2.jpg
+    text: The second image
+  - name: hubcap.jpg
+    thumb: thumb-3.jpg
+    text: The third image
+  - name: marcador.jpg
+    thumb: thumb-1.jpg
+    text: The first image
+  - name: oculos.jpg
+    thumb: thumb-2.jpg
+    text: The second image
+  - name: placa.jpg
+    thumb: thumb-3.jpg
+    text: The third image
+  - name: radio.jpg
+    thumb: thumb-1.jpg
+    text: The first image

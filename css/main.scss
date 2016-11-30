@@ -1,6 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
@@ -27,6 +27,18 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
+
+// Font variables
+$font-name: "VWT2";
+$font-path-file-name: {{baseurl}}/assets/fonts/VWT2;
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 
 

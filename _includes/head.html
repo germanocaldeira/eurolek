@@ -5,8 +5,60 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+  
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{site.css_folder}}/lightbox.min.css">
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-</head>
+  
+  <script src="{{site.js_folder}}/jquery-3.1.0.slim.min.js" type="text/javascript"></script>
+  <script src="{{site.js_folder}}/konamicode.js" type="text/javascript"></script>
+  <script src="{{site.js_folder}}/lightbox.min.js" type="text/javascript"></script>
+  <script>
+	// a key map of allowed keys
+var allowedKeys = {
+  37: 'left',
+  38: 'up',
+  39: 'right',
+  40: 'down',
+  65: 'a',
+  66: 'b'
+};
+
+// the 'official' Konami Code sequence
+var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+
+// a variable to remember the 'position' the user has reached so far.
+var konamiCodePosition = 0;
+
+// add keydown event listener
+document.addEventListener('keydown', function(e) {
+  // get the value of the key code from the key map
+  var key = allowedKeys[e.keyCode];
+  // get the value of the required key from the konami code
+  var requiredKey = konamiCode[konamiCodePosition];
+
+  // compare the key with the required key
+  if (key == requiredKey) {
+
+    // move to the next key in the konami code sequence
+    konamiCodePosition++;
+
+    // if the last key is reached, activate cheats
+    if (konamiCodePosition == konamiCode.length)
+      activateCheats();
+  } else
+    konamiCodePosition = 0;
+});
+
+function activateCheats() {
+  document.body.style.backgroundImage = "url('images/cheatBackground.png')";
+
+  var audio = new Audio('audio/pling.mp3');
+  audio.play();
+
+  alert("D E S C U B R A");
+}
+  </script>
+  </head>
