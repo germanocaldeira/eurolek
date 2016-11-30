@@ -29,7 +29,7 @@ layout: post
 ![Radio]({{site.url}}/assets/images/parts/radio.JPG){:class="img-responsive"}
 
 <h4>Placa Alem&atilde;</h4>
-<p> Porque um German Look sem uma placa alem&atilde, n&atilde;o &eacute; um German Look. </p>
+<p> Porque um German Look sem uma placa alem&atilde;, n&atilde;o &eacute; um German Look. </p>
 ![Placa]({{site.url}}/assets/images/parts/placa.JPG){:class="img-responsive"}
 
 <h4>Chave P&iacute;lula</h4>
